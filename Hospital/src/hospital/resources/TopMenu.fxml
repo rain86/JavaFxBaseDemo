@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.menu.TopMenuController">
+    <stylesheets>
+        <URL value="@base.css" />
+    </stylesheets>
+   <children>
+      <MenuBar AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="[客服]">
+            <items>
+              <MenuItem mnemonicParsing="false" text="[咨询管理]" onAction="#gotoConsultingManagement"/>
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="[查询]">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete"  onAction="#gotoDelete"/>
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="[门诊]">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="[邮寄]">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="[预约]">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="[短信]">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="[统计]">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="[工具]">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="[管理员]">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="[退出系统]">
+              <items>
+                <MenuItem mnemonicParsing="false" text="exit" onAction="#gotoexit"/>
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

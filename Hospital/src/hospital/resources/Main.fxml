@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.MainController">
+    <stylesheets>
+        <URL value="@base.css" />
+    </stylesheets>
+    <children>
+      <VBox fx:id="main_border" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+   </children>
+</AnchorPane>

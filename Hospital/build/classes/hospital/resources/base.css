@@ -1,0 +1,38 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+
+.background {
+    -fx-background-image: url("login_x.jpg");
+    -fx-background-repeat: no-repeat;
+    /*-fx-background-position:top;*/
+}
+
+
+/*.button .text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0, 0, 0, 0.8), 0, 0.0 , 0 , -1 );
+}*/
+
+.button {
+    -fx-background-color:#2673c9;
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+}
+
+.button:focused, .button:hover {
+    -fx-background-color:#68b52b;
+}
+.ConsultingManagement {
+    -fx-background-image: url("phone.png");
+    -fx-background-size: 20 20;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color:#ebeef1;
+    -fx-background-position:top center;
+    -fx-text-fill: #666666;
+}
+
+
+

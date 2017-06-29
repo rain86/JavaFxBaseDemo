@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.menu.QueryMenuController">
+    <stylesheets>
+        <URL value="@base.css" />
+    </stylesheets>
+   <children>
+      <HBox>
+         <children>
+            <Button mnemonicParsing="false" styleClass="ConsultingManagement" text="咨询管理"  onAction="#gotoConsultingManagement">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="30.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets right="1.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" styleClass="ConsultingManagement" text="回访系统    ">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="30.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets right="1.0" />
+               </HBox.margin></Button>
+            <Button mnemonicParsing="false" styleClass="ConsultingManagement" text="今日就诊">
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="30.0" />
+               </padding></Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
